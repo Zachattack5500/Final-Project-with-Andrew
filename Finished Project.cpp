@@ -164,7 +164,7 @@ int main()
 
 
 	Questiona one;
-	cout << endl<< "This test is case sensitive. Try to get as many right as possible." <<endl << "Question One:" << endl;
+	cout << endl << endl << "This test is case sensitive. Try to get as many right as possible." <<endl << "Question One:" << endl;
 	cout << one.question << endl << one.answer1 << endl << one.answer2 << endl << one.answer3 << endl << one.answer4 << endl;
 
 	while ((array[0] > 2) || (array[0] < -1)) // answer for question that won't stop looping until valid answer is used
